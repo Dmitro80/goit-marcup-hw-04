@@ -232,18 +232,32 @@
     padding-bottom: 120px;
     
     }
+    .hero-img {
+        background-color: var(--backgraund-fon);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 264px;
+        height: 112px;
+        margin-bottom: 8px;
+        border-radius: 4px;
+        }
     
     
     
     .hero-title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--color-span);
     margin-bottom: 8px;
     }
-    
-    
+   
+    .hero-link {
+        width: calc((100% - 72px) / 4);
+        }
+      
     
     .hero-text {
     font-size: 16px;
